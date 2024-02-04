@@ -4,11 +4,6 @@ int main(){
     int n ;
     cout<<"Enter any number :";
     cin>>n;
-    if(n%2 == 0){
-        cout<<"Even Number"<<endl;
-
-    }else{
-        cout<<"Odd Number";
-    }
+   cout<< n<<" is"<<(n % 2 == 0? "Even":"Odd");
     return 0;
 }
